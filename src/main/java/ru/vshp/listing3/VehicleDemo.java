@@ -9,6 +9,11 @@ class Vehicle {
         double value = maxspeed * interval;
         System.out.println("пройдет путь, равный " + value + " км.");
     }
+
+    double distance1(double interval) {
+        double value = maxspeed * interval;
+        return value;
+    }
 }
 
 class VehicleDemo {
